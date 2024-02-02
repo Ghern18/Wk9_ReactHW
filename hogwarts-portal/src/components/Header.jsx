@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <Navbar className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="#home">Hogwarts Portal</Navbar.Brand>
+                <Navbar.Brand href="#home">Padawans Portal</Navbar.Brand>
             </Container>
         </Navbar>
     )

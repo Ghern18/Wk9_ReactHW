@@ -12,7 +12,7 @@ export default function Sidebar() {
             <Nav.Link href='/'>My Page</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link href='/'>Padawans Playground</Nav.Link>
+            <Nav.Link href='/'>Hogwarts Break Room</Nav.Link>
         </Nav.Item>
     </Navbar>
   )

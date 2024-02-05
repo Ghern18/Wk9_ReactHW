@@ -20,11 +20,11 @@ export const Posts = () => {
             "id": "4",
             "timestamp": "2024-01-03T00:54:46.188100",
             "user": {
-                "email": "dsmith232@gmail.com",
+                "email": "harrypotter@gmail.com",
                 "first_name": null,
                 "id": "1",
                 "last_name": null,
-                "username": "dsmith232"
+                "username": "harryp232"
             }
         },
         {
@@ -32,11 +32,11 @@ export const Posts = () => {
             "id": "5",
             "timestamp": "2024-01-03T00:54:49.010977",
             "user": {
-                "email": "dsmith232@gmail.com",
+                "email": "harrypotter@gmail.com",
                 "first_name": null,
                 "id": "1",
                 "last_name": null,
-                "username": "dsmith232"
+                "username": "harryp232"
             }
         },
         {
@@ -44,11 +44,11 @@ export const Posts = () => {
             "id": "6",
             "timestamp": "2024-01-03T00:54:50.843257",
             "user": {
-                "email": "dsmith232@gmail.com",
+                "email": "harrypotter@gmail.com",
                 "first_name": null,
                 "id": "1",
                 "last_name": null,
-                "username": "dsmith232"
+                "username": "harryp232"
             }
         },
         {
@@ -56,11 +56,11 @@ export const Posts = () => {
             "id": "7",
             "timestamp": "2024-01-04T01:56:13.923976",
             "user": {
-                "email": "dsmith232@gmail.com",
+                "email": "harrypotter@gmail.com",
                 "first_name": null,
                 "id": "1",
                 "last_name": null,
-                "username": "dsmith232"
+                "username": "harryp232"
             }
         },
         {
@@ -68,11 +68,11 @@ export const Posts = () => {
             "id": "8",
             "timestamp": "2024-01-04T02:00:12.567400",
             "user": {
-                "email": "newdsmith12@ct.com",
+                "email": "harrypotter.newemail@gmail.com",
                 "first_name": null,
                 "id": "3",
                 "last_name": null,
-                "username": "dsmith"
+                "username": "harryp"
             }
         }
     ]
@@ -80,7 +80,7 @@ export const Posts = () => {
         <>
             {posts.length > 0 ? posts.map((post) => {
                 return <Post key={post.id} post={post} />
-            }) : <p>No Posts to Display</p>}
+            }) : <p>No Spells to Display</p>}
         </>
     )
 }
